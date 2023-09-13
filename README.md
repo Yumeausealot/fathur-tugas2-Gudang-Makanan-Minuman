@@ -1,4 +1,4 @@
-Link: https://adaptable.io/app/apps
+Link: https://fathur-tugas2-mc-shipyards.adaptable.app
 
 1. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
    jwb:
