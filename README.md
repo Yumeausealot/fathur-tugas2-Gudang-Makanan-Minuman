@@ -50,17 +50,17 @@ Link: https://fathur-tugas2-mc-shipyards.adaptable.app
    
 2. Apa perbedaan utama antara XML, JSON, dan HTML dalam konteks pengiriman data?
 
-
+   XML mengidentifikasi berbagai jenis data dan menentukan struktur data , JSON digunakan untuk mengirim data dari client ke server, atau sebaliknya, HTML berfungsi untuk menggambarkan bagaimana data akan ditampilkan di dalam web
    
-3. Mengapa JSON sering digunakan dalam pertukaran data antara aplikasi web modern?
+4. Mengapa JSON sering digunakan dalam pertukaran data antara aplikasi web modern?
 
    Karena JSON memiliki format pertukaran data yang sangat ringan dan lebih mudah dibaca dan ditulis oleh manusia, sehingga mudah untuk diterjemahkan dan generate oleh komputer
    
-4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
 
-
+   Pertama, setelah routing dan implementasi skeleton, saya membuat form untuk menerima input data. Setelah itu, pada views saya membuat fungsi yang menerima request dan menambahkan input data baru. Kemudian saya meng-import fungsi yang baru dibuat ke urls agar dapat diakses. Lalu saya membuat file HTML baru untuk menampung input dan menampilkannya. Terakhir saya membuat fungsi untuk JSON, XML, JSON berdasar ID, dan XML berdasar ID di views yang kemudian di import ke urls.
    
-5. Mengakses kelima URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
+6. Mengakses kelima URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
 
    <img width="804" alt="Screenshot 2023-09-20 050733" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/ed9897ec-8965-4797-9905-2bd2008c2bb6">
    <img width="801" alt="Screenshot 2023-09-20 050918" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/87047783-68ff-4bcd-9301-bf15e0fe5b99">
