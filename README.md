@@ -63,16 +63,25 @@ Link: https://fathur-tugas2-mc-shipyards.adaptable.app
 6. Mengakses kelima URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
 
    HTML
+   
    <img width="804" alt="Screenshot 2023-09-20 050733" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/ed9897ec-8965-4797-9905-2bd2008c2bb6">
 
+
    JSON ID
+   
    <img width="801" alt="Screenshot 2023-09-20 050918" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/87047783-68ff-4bcd-9301-bf15e0fe5b99">
 
+
    XML ID
+   
    <img width="794" alt="Screenshot 2023-09-20 050857" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/1f83cdb1-491e-4290-a2c2-92bf1f8a4be6">
 
+
    JSON
+   
    <img width="797" alt="Screenshot 2023-09-20 050816" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/d9790f00-a101-4e3a-b955-a711e00e7687">
 
+
    XML
+   
    <img width="799" alt="Screenshot 2023-09-20 050802" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/76870d5c-bc09-4ad7-943d-b43649b1e827">
