@@ -19,12 +19,14 @@ from django.urls import reverse
 @login_required(login_url='/login')
 def show_main(request):
     products = Product.objects.filter(user=request.user)
+    total_items = products.count()
     context = {
         'name': request.user.username,
         'npm': '2206082096',
         'class': 'PBP D',
         'description': 'Ignore Mon Cala, its a mistake',
         'products': products,
+        'total_items': total_items,
         'last_login': request.COOKIES['last_login'],
     }
 
