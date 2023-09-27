@@ -85,3 +85,26 @@ Link: https://fathur-tugas2-mc-shipyards.adaptable.app
    XML
    
    <img width="799" alt="Screenshot 2023-09-20 050802" src="https://github.com/Yumeausealot/fathur-tugas2-mc-shipyards/assets/119997657/76870d5c-bc09-4ad7-943d-b43649b1e827">
+
+
+**Tugas 4**
+
+1. Apa itu Django UserCreationForm, dan jelaskan apa kelebihan dan kekurangannya?
+
+   Django UserCreationForm adalah form input user baru bawaan django. Kelebihannya lebih praktis karena sudah menjadi bawaan django. Kekurangannya UserCreationForm adalah tidak memiliki email field, sehingga kita tidak dapat menggunakan email verification untuk memverivikasi akun.
+      
+2. Apa perbedaan antara autentikasi dan otorisasi dalam konteks Django, dan mengapa keduanya penting?
+
+   Autentikasi adalah proses menentukan identitas pengguna untuk memastikan apakah pengguna asli atau tidak, proses ini biasanya terjadi saat login. Otorisasi adalah proses menentukan akses yang dimiliki oleh pengguna dalam sebuah aplikasi. Keduanya penting karena berhubungan dengan keamanaan informasi pengguna sehingga tidak mudah di akses oleh orang yang tidak berhak.
+   
+3. Apa itu cookies dalam konteks aplikasi web, dan bagaimana Django menggunakan cookies untuk mengelola data sesi pengguna?
+
+Cookies adalah kumpulan informasi yang berisi rekam jejak dan aktivitas ketika menelusuri sebuah web. Django akan menyimpan waktu login dengan fungsi set_cookie, lalu dapat ditampiklkan kembali menggunakan fungsi get.
+
+4. Apakah penggunaan cookies aman secara default dalam pengembangan web, atau apakah ada risiko potensial yang harus diwaspadai?
+
+   Umumnya cookies tidak bisa mentransfer malware atau virus karena data yang dibawa cookies tidak berubah ketika berpindah dari komputer ke web dan sebaliknya. Namun, hindari mengunjungi situs-situs yang mencurigakan agar mengurangi kemungkinan terjadinya bahaya. 
+   
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
+
+   Pertama, saya menambahkan form registrasi, fungsi login, dan fungsi logout. Kemudian, saya menambahkan restriksi akses halaman main sehingga hanya yang telah login yang bisa akses. Lalu saya membuat last login dengan memakai data dari cookies. Terakhir saya menghubungkan produk dengan pengguna yang membuatnya, sehingga pengguna hanya melihat produk-produk yang telah dibuat sendiri. 
