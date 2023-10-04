@@ -108,3 +108,25 @@ Cookies adalah kumpulan informasi yang berisi rekam jejak dan aktivitas ketika m
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
 
    Pertama, saya menambahkan form registrasi, fungsi login, dan fungsi logout. Kemudian, saya menambahkan restriksi akses halaman main sehingga hanya yang telah login yang bisa akses. Lalu saya membuat last login dengan memakai data dari cookies. Terakhir saya menghubungkan produk dengan pengguna yang membuatnya, sehingga pengguna hanya melihat produk-produk yang telah dibuat sendiri. 
+
+
+**Tugas 5**
+1. Jelaskan manfaat dari setiap element selector dan kapan waktu yang tepat untuk menggunakannya.
+
+   Untuk pemilihan suatu elemen yang memiliki banyak data elemen.
+   
+2. Jelaskan HTML5 Tag yang kamu ketahui.
+
+   <title>	Tag untuk membuat judul dari sebuah halaman, <head>	Tag untuk membuat informasi tentang dokumen, <body>	Tag untuk membuat tubuh dari sebuah halaman, <form>	Tag untuk membuat sebuah form HTML untuk input pengguna, <button>	Tag untuk membuat sebuah tombol yang dapat diklik, <table>	Tag untuk membuat tabel, <tr>	Tag untuk membuat baris dalam sebuah tabel, <td>	Tag untuk membuat sel dalam sebuah tabel
+ 
+3. Jelaskan perbedaan antara margin dan padding.
+
+   margin dipakai untuk menata letak dari sisi luar, sedangkan padding dipakai untuk menata letak dari sisi dalam
+
+4. Jelaskan perbedaan antara framework CSS Tailwind dan Bootstrap. Kapan sebaiknya kita menggunakan Bootstrap daripada Tailwind, dan sebaliknya?
+
+   Bootstrap memiliki desain yang sudah jadi (opinionated) dengan gaya dan komponen bawaan yang sudah dirancang. Ini membuatnya cepat untuk digunakan tanpa banyak kustomisasi. Tailwind adalah kerangka kerja yang lebih "low-level" yang memberikan sejumlah kelas utility yang dapat Anda gabungkan untuk merancang tampilan sesuai keinginan Anda. Ini memberikan lebih banyak kendali desain tetapi memerlukan lebih banyak kerja dalam merancang tampilan dari awal.
+ 
+ 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
+
+    Saya mengimplementasi checklist dengan memakai bootstrap. Seperti menambahkan navbar di setiap html dan mengubah warna bg. Namun, saya rasanya belum selesai dan akan saya tambah setelah atau saat tugas 6.
