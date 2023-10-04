@@ -1,19 +1,14 @@
 from main.models import Product
-from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.shortcuts import render, redirect
+from django.http import HttpResponseRedirect, HttpResponse
 from main.forms import ProductForm
 from django.urls import reverse
-from django.http import HttpResponse
 from django.core import serializers
-from django.shortcuts import redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages  
-from django.contrib.auth import authenticate, login
-from django.contrib.auth import logout
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 import datetime
-from django.http import HttpResponseRedirect
-from django.urls import reverse
 
 # Create your views here.
 @login_required(login_url='/login')
@@ -92,3 +87,26 @@ def logout_user(request):
     response = HttpResponseRedirect(reverse('main:login'))
     response.delete_cookie('last_login')
     return response
+
+def edit_product(request, id):
+    # Get product berdasarkan ID
+    product = Product.objects.get(pk = id)
+
+    # Set product sebagai instance dari form
+    form = ProductForm(request.POST or None, instance=product)
+
+    if form.is_valid() and request.method == "POST":
+        # Simpan form dan kembali ke halaman awal
+        form.save()
+        return HttpResponseRedirect(reverse('main:show_main'))
+
+    context = {'form': form}
+    return render(request, "edit_product.html", context)
+
+def delete_product(request, id):
+    # Get data berdasarkan ID
+    product = Product.objects.get(pk = id)
+    # Hapus data
+    product.delete()
+    # Kembali ke halaman awal
+    return HttpResponseRedirect(reverse('main:show_main'))
