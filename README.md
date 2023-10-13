@@ -130,3 +130,25 @@ Cookies adalah kumpulan informasi yang berisi rekam jejak dan aktivitas ketika m
  5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
 
     Saya mengimplementasi checklist dengan memakai bootstrap. Seperti menambahkan navbar di setiap html dan mengubah warna bg. Namun, saya rasanya belum selesai dan akan saya tambah setelah atau saat tugas 6.
+
+
+**Tugas 6**
+1. Jelaskan perbedaan antara asynchronous programming dengan synchronous programming.
+
+   Dalam pemrograman sinkronus, tugas dijalankan secara berurutan, satu demi satu, dan tidak dapat diinterupsi hingga tugas tersebut selesai. Setiap tugas harus menunggu tugas sebelumnya selesai dijalankan sebelum dapat dimulai. Dalam pemrograman asinkronus, tugas dapat dijalankan dalam urutan apa pun atau bahkan secara bersamaan. Pendekatan ini bekerja paling baik ketika tugasnya panjang, rumit, atau memerlukan banyak sumber daya. Setiap tugas tidak bergantung pada tugas sebelumnya yang harus diselesaikan sebelum dapat dimulai.
+
+2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini.
+
+
+
+3. Jelaskan penerapan asynchronous programming pada AJAX.
+
+   Programming asinkronus pada AJAX memungkinkan JavaScript untuk mengirim suatu request tanpa harus menunggu sebuah response.
+
+4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan.
+
+
+
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
+
+   Pertama-tama, saya membuat fungsi untuk GET dan POST pada views.py. Lalu saya menambahkan path fungsi tersebut ke urls.py. Kemudian, saya modifikasi file main.html agar tabel dapat dimodifikasi dengan AJAX. Pada main.html saya menambahkan script yang berisi getproducts dan refreshproducts untuk mengupdate tabel data secara real time dan menambahkan item ke produk menggunakan modal dari bootstrap. Terakhir saya melakukan collectstatic.
