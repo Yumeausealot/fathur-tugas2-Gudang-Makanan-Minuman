@@ -139,7 +139,7 @@ Cookies adalah kumpulan informasi yang berisi rekam jejak dan aktivitas ketika m
 
 2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini.
 
-
+   Event-driven programming adalah paradigma dimana semua bagian dari program, objek, dan lainnya berkomunikasi satu sama lain, sehingga saat kita menekan tombol tambahkan item, maka akan muncul form untuk menulis item baru. Lalu saat kita submit formnya, maka langsung diupdate item barunya pada tampilan.
 
 3. Jelaskan penerapan asynchronous programming pada AJAX.
 
@@ -147,7 +147,7 @@ Cookies adalah kumpulan informasi yang berisi rekam jejak dan aktivitas ketika m
 
 4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan.
 
-
+   Fetch api adalah native dari javascript yang menyediakan global fetch() method yang dapat dengan mudah dan logis untuk fetch resources secara asinkronus di seluruh jaringan. JQuery hanya library yang memiliki beberapa perbedaan syntax.
 
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
 
