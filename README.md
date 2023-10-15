@@ -2,7 +2,7 @@ Nama: Dian Fathur Rahman
 
 NPM: 2206082096
 
-Link: https://fathur-tugas2-mc-shipyards.adaptable.app
+Tautan Aplikasi: http://dian-fathur-tugas.pbp.cs.ui.ac.id
 
 **TUGAS 2**
 
